@@ -1,5 +1,7 @@
 package day_47;
 
+import java.util.Arrays;
+
 public class ArrayıBaşkaArrayaAtama {
     /*Bir Array'i farklı bir arrayin içerisine 5 farklı yöntem ile kopyalayabiliriz..
             1-For loop
@@ -26,4 +28,28 @@ public class ArrayıBaşkaArrayaAtama {
                          System.arraycopy(array,0,arr,0,array.length);
 
          */
-}
+
+
+    public static void main(String[] args) {
+        System.out.println(newArray());
+
+
+
+
+
+        //  int array[]= Arrays.copyOfRange(arr, 0,arr.length);
+        //  System.out.println(Arrays.toString(array));
+        // Arrays.sort(array);
+        // System.out.println(Arrays.toString(array));
+    }
+public static String newArray() {
+            int arr[] = {22, 3, 4, 55, 6, 7, 8};
+            int array[] = new int [arr.length];
+            for (int i = 0; i < arr.length; i++) {
+                array[i] = arr[i];
+
+            }
+            return Arrays.toString(array);
+
+        }
+    }
