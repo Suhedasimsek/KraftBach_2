@@ -11,16 +11,17 @@ public class Stack_Ex {
         stack.add(true);
         stack.add(4.4);
 
-        System.out.println(stack.size());
-        System.out.println(stack.pop());//LIFO yığının en altındakini alır
+        System.out.println(stack.size());// en üst son ilk en alt
+        System.out.println(stack.pop());//LIFO en son değeri alır.Remove yapar yaptığı değeri döndürür
         System.out.println(stack.size());
         System.out.println(stack.pop());
         System.out.println(stack.size());
         System.out.println(stack.peek());// sonuncuyu getirir ama silmez size değiştirmz
         System.out.println(stack.size());
-        System.out.println(stack.push("ayşe"));// döndürür ve en üste ekler
+        System.out.println(stack.push("ayşe"));// döndürür ve en sona ekler
         System.out.println(stack.size());
-        System.out.println(stack.search(2));//verilen nesne kaçıncı
+        System.out.println(stack);
+        System.out.println(stack.search(2));//verilen nesne sondan kaçıncı
 
 
     }
