@@ -19,15 +19,15 @@ public class mapExMain {
             okul.put(125,new Ogrenci("harun","yıldırım",10));
         System.out.println(okul.get(439).getAverageNote());
 
-//        System.out.println(okul.get(25).getSurName());
-//
-//        List<Ogrenci> list=new ArrayList<>();
-//        list.add(ogr1);
-//        list.add(ogr2);
-//        list.add(ogr3);
-//        list.add(ogr4);
-//
-//        System.out.println(list.get(0).getAverageNote());
+        System.out.println(okul.get(25).getSurName());
+
+        List<Ogrenci> list=new ArrayList<>();
+        list.add(ogr1);
+        list.add(ogr2);
+        list.add(ogr3);
+        list.add(ogr4);
+
+        System.out.println(list.get(0).getAverageNote());
 
     }
 }
