@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class toplamSayı {
     public static void main(String[] args) {
+        //faktoriyel toplam
         Scanner sc=new Scanner(System.in);
         System.out.println("Lütfen toplamlarını vermesini istediğiniz sayıyı girin");
         int a=sc.nextInt();

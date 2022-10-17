@@ -7,8 +7,8 @@ public class NavigableMap_Ex {
     public static void main(String[] args) {
         NavigableMap<Integer,String> navMap=new TreeMap<>();
         navMap.put(12,"Ali");
-        navMap.put(22,"Veli");
-        navMap.put(32,"Ayşe");
+        navMap.put(82,"Veli");
+        navMap.put(52,"Ayşe");
         navMap.put(42,"Fatma");
         System.out.println(navMap);
         System.out.println(navMap.descendingMap());

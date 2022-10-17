@@ -22,7 +22,7 @@ public class primeNumber {
         }
 
 
-
+// for each kulanımı
         ArrayList<Integer> list=new ArrayList<>(Arrays.asList(2,4,6,8,9,6,5,4));
 
 
